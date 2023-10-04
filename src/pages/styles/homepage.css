@@ -48,7 +48,8 @@
 }
 
 .homepage-image-wrapper img {
-	width: 100%;
+	width: 90%;
+	border-radius: 50%;
 }
 
 .homepage-socials {

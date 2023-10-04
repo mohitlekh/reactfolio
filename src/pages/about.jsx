@@ -6,6 +6,16 @@ import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faAws,
+	faReact,
+	faJsSquare,
+	faEnvira,
+	faNode,
+	faShopify,
+} from "@fortawesome/free-brands-svg-icons";
+
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
@@ -47,6 +57,33 @@ const About = () => {
 
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
+								</div>
+								<div className="subtitle about-subtitle">
+									<h4>Skils</h4>
+									<FontAwesomeIcon
+										icon={faAws}
+										className="homepage-social-icon"
+									/>
+									<FontAwesomeIcon
+										icon={faReact}
+										className="homepage-social-icon"
+									/>
+									<FontAwesomeIcon
+										icon={faJsSquare}
+										className="homepage-social-icon"
+									/>
+									<FontAwesomeIcon
+										icon={faNode}
+										className="homepage-social-icon"
+									/>
+									<FontAwesomeIcon
+										icon={faEnvira}
+										className="homepage-social-icon"
+									/>
+									<FontAwesomeIcon
+										icon={faShopify}
+										className="homepage-social-icon"
+									/>
 								</div>
 							</div>
 

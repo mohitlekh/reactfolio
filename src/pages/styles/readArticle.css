@@ -66,3 +66,11 @@
 	font-family: system-ui;
 	color: #52525b;
 }
+
+.randImage {
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5%;
+	margin-top: 2%;
+}

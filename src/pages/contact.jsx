@@ -50,7 +50,7 @@ const Contact = () => {
 							comment, please feel free to email me directly at
 							&nbsp;{" "}
 							<a href={`mailto:${INFO.main.email}`}>
-								{INFO.main.email}
+								Mohit Lekhrajani
 							</a>
 							. I make an effort to respond to all messages within
 							24 hours, although it may take me longer during busy
@@ -60,11 +60,11 @@ const Contact = () => {
 							possible. Finally, if you prefer to connect on
 							social media, you can find me on{" "}
 							<a
-								href={INFO.socials.instagram}
+								href={INFO.socials.twitter}
 								target="_blank"
 								rel="noreferrer"
 							>
-								{INFO.socials.instagram}
+								Twitter | Mohit
 							</a>
 							. I post regular updates and engage with my
 							followers there, so don't hesitate to reach out.
