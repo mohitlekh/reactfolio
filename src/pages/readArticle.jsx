@@ -34,6 +34,11 @@ const ReadArticle = () => {
 				<title>{`${article().title} | ${INFO.main.title}`}</title>
 				<meta name="description" content={article().description} />
 				<meta name="keywords" content={article().keywords.join(", ")} />
+				<script
+					async
+					src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7546015116695522"
+					crossorigin="anonymous"
+				></script>
 			</Helmet>
 
 			<div className="page-content">

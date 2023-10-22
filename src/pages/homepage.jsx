@@ -77,6 +77,11 @@ const Homepage = () => {
 					name="keywords"
 					content={currentSEO.keywords.join(", ")}
 				/>
+				<script
+					async
+					src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7546015116695522"
+					crossorigin="anonymous"
+				></script>
 			</Helmet>
 
 			<div className="page-content">

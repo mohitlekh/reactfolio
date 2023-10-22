@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faFaceSadTear } from "@fortawesome/free-regular-svg-icons";
-
+import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Logo from "../components/common/logo";
 
@@ -17,6 +17,13 @@ const Notfound = () => {
 
 	return (
 		<React.Fragment>
+			<Helmet>
+				<script
+					async
+					src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7546015116695522"
+					crossorigin="anonymous"
+				></script>
+			</Helmet>
 			<div className="not-found page-content">
 				<NavBar />
 				<div className="content-wrapper">
