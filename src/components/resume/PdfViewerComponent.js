@@ -11,11 +11,7 @@ const PdfViewerComponent = () => {
 	return (
 		<div className="resume-cointainer">
 			<div className="resume-section">
-				<img
-					alt="resume"
-					className="resume-image"
-					src="/Mohit_Lekhrajani_page-01.jpg"
-				/>
+				<img alt="resume" className="resume-image" src="/ml.jpg" />
 			</div>
 			<a href="/resume.pdf" download>
 				<FontAwesomeIcon

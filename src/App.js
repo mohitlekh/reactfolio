@@ -9,10 +9,10 @@ import Articles from "./pages/articles";
 import ReadArticle from "./pages/readArticle";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
+import Resume from "./pages/Resume";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
-import Resume from "./pages/Resume";
 
 function App() {
 	useEffect(() => {
@@ -31,7 +31,7 @@ function App() {
 				<Route path="/article/:slug" element={<ReadArticle />} />
 
 				<Route path="/contact" element={<Contact />} />
-				<Route path="/resume/bw" element={<Resume />} />
+				<Route path="/resume" element={<Resume />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>
