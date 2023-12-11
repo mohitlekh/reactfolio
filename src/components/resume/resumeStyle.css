@@ -1,9 +1,9 @@
 .resume-cointainer {
 	font-family: Arial, sans-serif;
-	padding: 80px 15px;
+	padding: 20px 5px;
 	position: relative;
 	overflow: hidden;
-	background: #f7f7f7;
+
 	color: #3d464b;
 	text-align: center;
 }
