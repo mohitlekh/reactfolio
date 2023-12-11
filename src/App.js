@@ -34,11 +34,14 @@ function App() {
 					path="/resume/bw"
 					element={
 						<>
-							<embed
+							<object
 								title="Resume"
-								src="/Mohit_Lekhrajani.pdf"
-								style={{ width: "100%", height: "90vh" }}
-							></embed>
+								type="application/pdf"
+								data="/Mohit_Lekhrajani.pdf"
+								style={{ width: "100%", height: "100vh" }}
+							>
+								<a href="/Mohit_Lekhrajani.pdf">Resume</a>
+							</object>
 						</>
 					}
 				/>
