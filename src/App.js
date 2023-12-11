@@ -39,9 +39,7 @@ function App() {
 								type="application/pdf"
 								data="/resume.pdf"
 								style={{ width: "100%", height: "100vh" }}
-							>
-								<a href="/resume.pdf">Resume</a>
-							</object>
+							></object>
 						</>
 					}
 				/>
