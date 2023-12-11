@@ -12,6 +12,7 @@ import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
+import Resume from "./pages/Resume";
 
 function App() {
 	useEffect(() => {
@@ -30,16 +31,7 @@ function App() {
 				<Route path="/article/:slug" element={<ReadArticle />} />
 
 				<Route path="/contact" element={<Contact />} />
-				<Route
-					path="/resume/bw"
-					element={
-						<object
-							aria-label="pdf-resume"
-							data="https://softwaredevelopermohit.netlify.app/resume.pdf"
-							style={{ width: "100%", height: "100vh" }}
-						></object>
-					}
-				/>
+				<Route path="/resume/bw" element={<Resume />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>
