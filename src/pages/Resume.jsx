@@ -1,13 +1,12 @@
 import React from "react";
+import PdfViewerComponent from "../components/PdfViewerComponent";
 
 const Resume = () => {
 	return (
-		<div>
-			<object
-				aria-label="pdf-resume"
-				data="/resume.pdf"
-				style={{ width: "100%", height: "100vh" }}
-			/>
+		<div className="App">
+			<div className="PDF-viewer">
+				<PdfViewerComponent document={"/resume.pdf"} />
+			</div>
 		</div>
 	);
 };
