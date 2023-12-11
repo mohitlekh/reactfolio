@@ -30,8 +30,11 @@ function App() {
 				<Route path="/articles" element={<Articles />} />
 				<Route path="/article/:slug" element={<ReadArticle />} />
 				<Route path="/contact" element={<Contact />} />
-				<Route path="/dummy" element={<>Dummy route for testing</>} />
-				<Route path="/resume" element={<Resume />} />
+				<Route
+					path="/dummy"
+					Component={() => <>Dummy route for testing</>}
+				/>
+				<Route path="/resume" Component={() => <Resume />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>
