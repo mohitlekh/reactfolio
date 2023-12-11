@@ -33,14 +33,11 @@ function App() {
 				<Route
 					path="/resume/bw"
 					element={
-						<>
-							<object
-								title="Resume"
-								type="application/pdf"
-								data="/resume.pdf"
-								style={{ width: "100%", height: "100vh" }}
-							></object>
-						</>
+						<object
+							aria-label="pdf-resume"
+							data="https://softwaredevelopermohit.netlify.app/resume.pdf"
+							style={{ width: "100%", height: "100vh" }}
+						></object>
 					}
 				/>
 				<Route path="*" element={<Notfound />} />
