@@ -34,11 +34,11 @@ function App() {
 					path="/resume/bw"
 					element={
 						<>
-							<iframe
+							<embed
 								title="Resume"
 								src="/Mohit_Lekhrajani.pdf"
 								style={{ width: "100%", height: "90vh" }}
-							></iframe>
+							></embed>
 						</>
 					}
 				/>
