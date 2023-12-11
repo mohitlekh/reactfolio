@@ -28,7 +28,20 @@ function App() {
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/articles" element={<Articles />} />
 				<Route path="/article/:slug" element={<ReadArticle />} />
+
 				<Route path="/contact" element={<Contact />} />
+				<Route
+					path="/resume/bw"
+					element={
+						<>
+							<iframe
+								title="Resume"
+								src="/Mohit_Lekhrajani.pdf"
+								style={{ width: "100%", height: "90vh" }}
+							></iframe>
+						</>
+					}
+				/>
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>

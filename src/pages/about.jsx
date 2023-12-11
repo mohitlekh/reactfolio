@@ -20,6 +20,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+// import { Link } from "react-router-dom";
 
 const About = () => {
 	useEffect(() => {
@@ -90,6 +91,7 @@ const About = () => {
 										className="homepage-social-icon"
 									/>
 								</div>
+								{/* <Link to={"/resume/bw"}>Resume</Link> */}
 							</div>
 
 							<div className="about-left-side">

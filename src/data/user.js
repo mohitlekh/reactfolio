@@ -69,6 +69,14 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com",
 		},
+		{
+			title: "Profit Forge",
+			description:
+				"Auto-sync PayPal Tracking info to your PayPal account. Get PayPal funds faster & reduce disputes",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbErme3WHnTAJjqqKRVlsnc6gfSTHFS_AfRA&usqp=CAU",
+			linkText: "View Project",
+			link: "https://github.com",
+		},
 
 		// {
 		// 	title: "Project 5",
