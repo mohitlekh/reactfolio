@@ -29,7 +29,7 @@ const Resume = () => {
 				></script>
 			</Helmet>
 			<div className="page-content">
-				<NavBar />
+				<NavBar active="resume" />
 				<div className="content-wrapper">
 					<div className="resume-logo-container">
 						<div className="resume-logo">
