@@ -72,7 +72,7 @@ const INFO = {
 		{
 			title: "Profit Forge",
 			description:
-				"Auto-sync PayPal Tracking info to your PayPal account. Get PayPal funds faster & reduce disputes",
+				"Increase top-line revenue with optimized pre & post-purchase upsell funnels—all with a few clicks!",
 			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbErme3WHnTAJjqqKRVlsnc6gfSTHFS_AfRA&usqp=CAU",
 			linkText: "View Project",
 			link: "https://github.com",
